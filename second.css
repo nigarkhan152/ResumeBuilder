@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    height: 100%;
+    width: 100%;
+}
+.top h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+    color: rgb(18, 18, 25);
+}
+main{
+    justify-content: center; 
+    align-items: center;  
+    padding-left: 24%;
+}
+.header{
+    height: auto;
+    width: 70%;
+    background-color: rgb(239, 241, 243);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.header > h1{
+    font-size: 70px;
+    font-family: "TikTok Sans", sans-serif;
+    color: rgb(36, 36, 39);
+    text-align: center;
+    font-weight: 800;
+}
+.header > h3 {
+    text-align: center;
+    font-family: "TikTok Sans", sans-serif;
+    font-size: 30px;
+    padding-left: 5%;
+    color: rgb(41, 41, 119);
+}
+.summary > #bottom > button{
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(215, 127, 127);
+    margin-left: 5%;
+    font-size: 20px;
+    color: white;
+}
+.summary > #bottom > button:hover{
+    background-color: rgb(113, 48, 48);
+    color: white;
+}
+form input, form label{
+    text-align: center;
+    height: 40px;
+    width: 500px;
+    margin-left: 20%;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "TikTok Sans", sans-serif;
+    color: rgb(41, 41, 119);
+    border-color: blue;
+    border-style: none;
+}
+.summary , .Experience,.Education ,.Achievement ,.skills ,.certification,.projects ,.extra {
+    margin-top: 2%;
+    height: auto;
+    width: 70%;
+    /* background-color: aliceblue; */
+        background-color: rgb(239, 241, 243);
+
+    /* border-radius: 10px; */
+    padding-bottom: 30px;
+    padding-top: 2%;
+}
+form textarea{
+    text-align: center;
+    height: 100px;
+    width: 500px;
+    margin-left: 20%;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "TikTok Sans", sans-serif;
+    color: rgb(41, 41, 119);
+    border-color: blue;
+    border-style: none;
+}
+.Experience>h3, .summary > h3,.top>h3 ,.Education>h3 ,.Achievement>h3 ,.skills>h3 ,.certification>h3 ,.projects>h3, .extra>h3{
+    font-family: "TikTok Sans", sans-serif;
+    font-size: 30px;
+    padding-left: 5%;
+    color: rgb(41, 41, 119);
+    text-align: center;
+}
+.submit{
+    height: 170px;
+    width: 70%;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    padding-top: 25px;
+}
+.submit>#btn{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 5%;
+    margin-left: 40%;
+    border: solid 2px navy;
+    background-color: white;
+    font-size: 20px;
+    color: navy;
+}
+.submit > #btn:hover{
+    background-color: rgb(36, 77, 112);
+    color: white;
+}
+#bottom{
+    padding-left: 10%;       
+    margin-top: 20px;
+    display: flex;
+}
+#bottom > #icon {
+  color: #5b5f64;
+  cursor: pointer;           
+  transition: transform 0.2s, color 0.2s;
+}
+#bottom > #icon:hover {
+  color: #131517;
+  transform: scale(1.2);
+}
+.Experience > .expB{
+    padding-left: 10%;       
+    margin-top: 20px;
+    display: flex;
+}
+.expB > #icon2{
+    color: #5b5f64;
+    cursor: pointer;           
+    transition: transform 0.2s, color 0.2s;
+}
+.expB > #icon2:hover {
+  color: #131517;
+  transform: scale(1.2);
+}
+.expB > button{
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    background-color: rgb(215, 127, 127);
+    margin-left: 5%;
+    font-size: 20px;
+}
+.expB > button:hover{
+    background-color: rgb(113, 48, 48);
+    color: white;
+
+}
+.Education > #eduB{
+    padding-left: 10%;       
+    margin-top: 20px;
+    display: flex;
+}
+#eduB > #icon3{
+    color: #5b5f64;
+    cursor: pointer;           
+    transition: transform 0.2s, color 0.2s;
+}
+#eduB > #icon3:hover {
+  color: #131517;
+  transform: scale(1.2);
+}
+#eduB > #btn3{
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(215, 127, 127);
+    margin-left: 5%;
+    font-size: 20px;
+    color: white;
+}
+#eduB > #btn3:hover{
+    background-color: rgb(113, 48, 48);
+    color: white;
+}
+
+.Achievement > #achB{
+    padding-left: 10%;       
+    margin-top: 20px;
+    display: flex;
+}
+#achB > #icon4{
+    color: #5b5f64;
+    cursor: pointer;           
+    transition: transform 0.2s, color 0.2s;
+}
+#achB > #icon4:hover {
+  color: #131517;
+  transform: scale(1.2);
+}
+#achB > #btn4{
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(215, 127, 127);
+    margin-left: 5%;
+    font-size: 20px;
+    color: white;
+}
+#achB > #btn4:hover{
+    background-color: rgb(113, 48, 48);
+    color: white;
+}
+.skills > .skB{
+    padding-left: 10%;       
+    margin-top: 20px;
+    display: flex;
+}
+.skB > #icon5{
+    color: #5b5f64;
+    cursor: pointer;           
+    transition: transform 0.2s, color 0.2s;
+}
+.skB > #icon5:hover {
+  color: #131517;
+  transform: scale(1.2);
+}
+.skB > #btn5{
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(215, 127, 127);
+    margin-left: 5%;
+    font-size: 20px;
+    color: white;
+}
+.skB > #btn5:hover{
+    background-color: rgb(113, 48, 48);
+    color: white;
+}
+.certification > .cerB{
+    padding-left: 10%;       
+    margin-top: 20px;
+    display: flex;
+}
+.cerB > #icon6{
+    color: #5b5f64;
+    cursor: pointer;           
+    transition: transform 0.2s, color 0.2s;
+}
+.cerB > #icon6:hover {
+  color: #131517;
+  transform: scale(1.2);
+}
+.cerB > #btn6{
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(215, 127, 127);
+    margin-left: 5%;
+    font-size: 20px;
+    color: white;
+}
+.cerB > #btn6:hover{
+    background-color: rgb(113, 48, 48);
+    color: white;
+}
+.projects > .proB{
+    padding-left: 10%;       
+    margin-top: 20px;
+    display: flex;
+}
+.proB > #icon7{
+    color: #5b5f64;
+    cursor: pointer;           
+    transition: transform 0.2s, color 0.2s;
+}
+.proB > #icon7:hover {
+  color: #131517;
+  transform: scale(1.2);
+}
+.proB > #btn7{
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(215, 127, 127);
+    margin-left: 5%;
+    font-size: 20px;
+    color: white;
+}
+.proB > #btn7:hover{
+    background-color: rgb(113, 48, 48);
+    color: white;
+}
+.extra > .exB{
+    padding-left: 10%;       
+    margin-top: 20px;
+    display: flex;
+}
+.exB > #icon8{
+    color: #5b5f64;
+    cursor: pointer;           
+    transition: transform 0.2s, color 0.2s;
+}
+.exB > #icon8:hover {
+  color: #131517;
+  transform: scale(1.2);
+}
+.exB > #btn8{
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(215, 127, 127);
+    margin-left: 5%;
+    font-size: 20px;
+    color: white;
+}
+.exB > #btn8:hover{
+    background-color: rgb(113, 48, 48);
+    color: white;
+}
+
