@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="second.css">
+</head>
+<body>
+
+    <div class="top">
+    </div>
+    <main>
+        <div class="header">
+            <h1>Enter Your Details Here</h1>
+            <h3>Personal Details</h3>
+            <div class="formBox">
+                <form>
+                <label>Job Title:</label>
+                <br>
+                <input placeholder="job title" type="text" id="jobTitle" required><br><br>
+                <label>Your Name:</label><br>
+                <input placeholder="name" type="text" id="name" required><br><br>
+
+                <label>Phone Number:</label><br>
+                <input placeholder="Phone Number" type="number" id="nmber" required><br><br>
+
+                <label>Email:</label><br>
+                <input placeholder="Email" type="email" id="email" required><br><br>
+
+                <label>Location :</label><br>
+                <input placeholder="Location" type="text" id="Location" required><br><br>
+
+                <label>Linkedin/Portfolio:</label><br>
+                <input placeholder="Linkedin/Portfolio" type="text" id="Linkedin" required><br><br>
+                </form>
+            </div>
+        </div>
+        <div class="summary">
+            <div class="top">
+            <h3>Summary:</h3>
+            <form>
+                <textarea id="message" placeholder="enter summary"></textarea><br><br>
+            </form>
+            </div>
+        </div>
+        <div class="Experience">
+            <h3>Experience :</h3>
+            <div class="expT">
+                <form>
+                    <div class="experience-block">
+                        <label>Job Title:</label><br>
+                        <input type="text" class="job-title-input" placeholder="e.g. Software Engineer" required><br><br>
+
+                        <label>Company Name:</label><br>
+                        <input type="text" class="company-name-input" placeholder="e.g. Google" required><br><br>
+
+                        <label>Duration:</label><br>
+                        <input type="text" class="duration-input" placeholder="e.g. Jan 2022 - Present" required><br><br>
+
+                        <label>Description:</label><br>
+                        <textarea class="job-desc-textarea" name="job-desc" rows="4" placeholder="Describe your responsibilities and achievements..."></textarea><br><br>
+                    </div>
+                </form>
+            </div>
+            <div class="expB">
+                <i id="icon2" class="fa-solid fa-plus fa-2x"></i>
+                <button id="btn2" type="button">Remove Last</button> </div>
+        </div>
+        <div class="Education">
+            <h3>Education :</h3>
+            <div class="eduT">
+                <form>
+                    <label>School or University:</label><br>
+                    <input type="text" class="school-input" placeholder="enter name of the organisation..." required><br><br>
+
+                    <label>Degree:</label><br>
+                    <input type="text" class="field-input" placeholder="Degree and Field of Study" required><br><br>
+
+                    <label>Duration:</label><br>
+                    <input type="text" class="duration1-input" placeholder="e.g. Jan 2022 - Present" required><br><br>
+                </form>
+            </div>
+            <div id="eduB">
+                <i id="icon3" class="fa-solid fa-plus fa-2x"></i>
+                <button id="btn3" type="button">Remove Last</button>
+            </div>
+        </div>
+        <div class="Achievement">
+            <h3>Achievement :</h3>
+            <div class="achT achievement-block"> <form>
+                    <label>Your Achievements:</label><br>
+                    <input type="text" class="achievement-title-input" placeholder="Your Achievement..." required><br><br>
+
+                    <label>Describe:</label><br>
+                    <input type="text" class="achievement-desc-input" placeholder="Describe what you did and the impact it had" required><br><br>
+                </form>
+            </div>
+            <div id="achB">
+                <i id="icon4" class="fa-solid fa-plus fa-2x"></i>
+                <button id="btn4" type="button">Remove Last</button>
+            </div>
+        </div>
+        <div class="skills">
+            <h3>Skills :</h3>
+            <div class="skT">
+                <form>
+                    <textarea class="skills-textarea" placeholder="Your Skills... " required></textarea><br><br>
+                </form>
+            </div>
+            <div class="skB">
+                <i id="icon5" class="fa-solid fa-plus fa-2x"></i>
+                <button id="btn5" type="button">Remove Last</button>
+            </div>
+        </div>
+        <div class="certification">
+            <h3>Certification :</h3>
+            <div class="cerT">
+                <form>
+                    <input type="text" class="certification-input" placeholder="Write title of your certification" required><br><br>
+                </form>
+            </div>
+            <div class="cerB">
+                <i id="icon6" class="fa-solid fa-plus fa-2x"></i>
+                <button id="btn6" type="button">Remove Last</button>
+            </div>
+        </div>
+        <div class="projects">
+            <h3>Projects :</h3>
+            <div class="proT">
+                <form>
+                    <label>Project Name:</label><br>
+                    <input type="text" class="project-name-input" placeholder="Project Name" required><br><br>
+
+                    <label>Describe</label><br>
+                    <input type="text" class="project-desc-input" placeholder="Short summary of your work" required><br><br>
+                </form>
+            </div>
+            <div class="proB">
+                <i id="icon7" class="fa-solid fa-plus fa-2x"></i>
+                <button id="btn7" type="button">Remove Last</button>
+            </div>
+        </div>
+        <div class="extra">
+            <h3>Extra :</h3>
+            <div class="exT">
+                <form>
+                    <label>Title:</label><br>
+                    <input type="text" class="extra-title-input" placeholder="Enter title...." required><br><br>
+
+                    <label>Describe:</label><br>
+                    <input type="text" class="extra-desc-input" placeholder="Describe here...." required><br><br>
+                </form>
+            </div>
+            <div class="exB">
+                <i id="icon8" class="fa-solid fa-plus fa-2x"></i>
+                <button id="btn8" type="button">Remove Last</button>
+            </div>
+        </div>
+        <div class="submit">
+            <button type="submit" id="btn">Build CV</button>
+        </div>
+    </main>
+    <script src="second.js"></script>
+</body>
+</html>
