@@ -1,0 +1,143 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 30px;
+}
+
+.resume-container {
+  background-color: #ffffff;
+  max-width: 800px;
+  margin: auto;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-bottom: 30px;
+}
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+.nameSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.left{
+    height: 100%;
+    /* background-color: pink; */
+    width: 48%;
+}
+.right{
+    /* background-color: #007acc; */
+    height: 100%;
+    width: 48%;
+    text-align: right;
+}
+.left h1 {
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.left h3 {
+    font-size: 16px;
+    margin: 5px 0 0 0;
+    padding: 0;
+    font-weight: 500;
+    color: #555;
+}
+.right p {
+    margin: 2px 0;
+    font-size: 14px;
+    line-height: 1.3;
+    color: #333;
+}
+
+.right a {
+    text-decoration: none;
+    color: #007acc;
+    font-weight: 500;
+}
+.btn-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-container button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-container button:hover {
+  background-color: #2980b9;
+}
+.nameSection{
+    height: 100px;
+    width: auto;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: space-between;
+}
+.summary{
+    height: auto;
+    width: 100%;
+}
+.summary h3 {
+  font-size: 16px;
+  margin: 5px 0 0 0;
+  padding: 0;
+  font-weight: 600;
+}
+.summary p {
+  font-size: 12px;
+  margin: 5px 0 0 0;
+  padding: 0;
+  font-weight: 500;
+  color: #555;
+}
+.education{
+  height: auto;
+  width: 100%;
+}
+.education h3 {
+  font-size: 16px;
+  margin: 5px 0 0 0;
+  padding: 0;
+  font-weight: 600;
+}
+.education .mid{
+  display: flex;
+}
+.education .left{
+  height: auto;
+  width: 48%;
+}
+.education .right{
+  height: auto;
+  width: 48%;
+}
+.education p {
+  font-size: 12px;
+  margin: 5px 0 0 0;
+  padding: 0;
+  font-weight: 500;
+  color: #555;
+}
+
+
+
